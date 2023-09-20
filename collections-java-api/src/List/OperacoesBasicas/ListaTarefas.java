@@ -40,9 +40,16 @@ public class ListaTarefas {
 
         System.out.println("Numero total: "+ lista.obterNumeroTotalTarefas());
         
-        lista.AdicionarTarefa("Tarefa 1");
-        lista.AdicionarTarefa("Tarefa 1");
-        lista.AdicionarTarefa("Tarefa 2");
+        lista.AdicionarTarefa("Primeira Tarefa");
+        lista.AdicionarTarefa("Primeira Tarefa");
+        lista.AdicionarTarefa("Segunda Tarefa");
+
+        System.out.println("Numero total: "+ lista.obterNumeroTotalTarefas());
+        
+        lista.removerTarefa("Segunda Tarefa");
+
+        System.out.println("Numero total: "+ lista.obterNumeroTotalTarefas());
+        
 
     
 
