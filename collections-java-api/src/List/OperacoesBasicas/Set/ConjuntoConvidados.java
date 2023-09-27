@@ -49,7 +49,8 @@ public class ConjuntoConvidados {
       // conjuntoConvidados.removerConvidadoPorCodigoConvite(1);
 
         System.out.println(conjuntoConvidados.contarConvidados());
-       conjuntoConvidados.exibirConvidados();
+        conjuntoConvidados.exibirConvidados();
+        
     }
 
 }
